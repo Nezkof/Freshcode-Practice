@@ -1,0 +1,39 @@
+.support-section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0 4.8em 8.8em 4.8em;
+   text-align: center;
+}
+
+.support_title {
+   font-size: 3.3em;
+   text-transform: uppercase;
+}
+
+.support_description {
+   font-size: 1.1em;
+   color: #73a6b1;
+   margin-top: 0.83em;
+}
+
+.support_slogan {
+   font-size: 1.5em;
+   margin-top: 2.2em;
+}
+
+.support_counter-container {
+   margin: 17px 0 50px 0;
+   border: none;
+   border-collapse: collapse;
+}
+
+.counter_cell {
+   font-size: 3.3em;
+   padding: 0 13px;
+}
+
+.middle-cell {
+   border-left: 2px solid #9ad2de;
+   border-right: 2px solid #9ad2de;
+}

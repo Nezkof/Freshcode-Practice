@@ -1,0 +1,44 @@
+.mission-section {
+   padding: 12.2em 4.8em 12.2em 4.8em;
+}
+
+.mission_container {
+   display: flex;
+   position: relative;
+   padding: 5em 3.4em;
+   background-color: #f1fdff;
+}
+
+.mission_title {
+   font-size: 1.5em;
+   line-height: 1.2;
+   width: 38.75vw;
+}
+
+.mission_img {
+   position: absolute;
+   bottom: 0;
+   right: -40px;
+   width: 49.653vw;
+}
+
+@media (min-width: 1441px) {
+   .mission-section {
+      padding-top: 25vw;
+   }
+}
+
+@media (max-width: 800px) {
+   .mission_container {
+      justify-content: center;
+   }
+
+   .mission_title {
+      width: 100%;
+      text-align: center;
+   }
+
+   .mission_img {
+      display: none;
+   }
+}

@@ -1,0 +1,121 @@
+.contacts-section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #f9fadf;
+   padding: 2.7em 3.9em 8.8em 3.9em;
+   gap: 2.7em;
+}
+
+.contacts {
+   display: flex;
+   width: 100%;
+   box-sizing: border-box;
+   justify-content: space-between;
+}
+
+.contacts_title {
+   width: 41.806vw;
+   text-align: center;
+   font-size: 3.3em;
+   text-transform: uppercase;
+}
+
+.contacts-container {
+   width: 41.806vw;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5em;
+}
+
+.contact-icon {
+   width: 1.77em;
+   height: 1.77em;
+}
+
+.icons_container {
+   margin-top: 3.16em;
+}
+
+.contact_description {
+   font-size: 1.1em;
+
+   span {
+      font-weight: 700;
+   }
+}
+
+.contacts_mailing {
+   display: flex;
+   width: 100%;
+   box-sizing: border-box;
+   justify-content: space-between;
+   align-items: center;
+   background-color: white;
+   padding: 3.3em;
+}
+
+.mailing_container {
+   width: 37.569vw;
+   display: flex;
+   flex-direction: column;
+   gap: 1.72em;
+}
+
+.mailing_img {
+   width: 37.569vw;
+}
+
+.mailing_title {
+   margin-bottom: auto;
+   font-size: 1.5em;
+}
+
+.mailing_input {
+   background-color: #f9fadf;
+   padding: 1.1em 2.3em;
+   border-radius: 3.38em;
+   font-size: 1.1em;
+   border: none;
+}
+
+.mailing_input::placeholder {
+   color: black;
+}
+
+.mailing_input:focus {
+   outline: 1px solid #e3e4cb;
+}
+
+@media (max-width: 1000px) {
+   .contacts {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .contacts_title {
+      width: 100%;
+   }
+
+   .contacts-container {
+      margin-top: 1.1em;
+      width: 100%;
+   }
+
+   .contact_description {
+      line-height: 1.4;
+      width: 70%;
+   }
+
+   .contacts_mailing {
+      justify-content: center;
+   }
+
+   .mailing_img {
+      display: none;
+   }
+
+   .mailing_container {
+      width: 100%;
+   }
+}

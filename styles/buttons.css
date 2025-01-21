@@ -1,0 +1,36 @@
+.btn-blue {
+   transition: background-color 0.25s ease-out;
+   font-family: inherit;
+   font-size: inherit;
+   outline: none;
+   width: auto;
+   border: none;
+   text-transform: uppercase;
+   padding: 1.4em 1.95em;
+   border-radius: 4.8em;
+   background-color: #7ae5fd;
+   line-height: 0.96em;
+}
+
+.btn-blue:hover {
+   background-color: rgb(158, 237, 255);
+   cursor: pointer;
+}
+
+.btn-white {
+   transition: background-color 0.25s ease-out;
+   font-family: inherit;
+   font-size: inherit;
+   outline: none;
+   border: none;
+   text-transform: uppercase;
+   padding: 1.4em 1.95em;
+   border-radius: 4.8em;
+   background-color: white;
+   line-height: 0.96em;
+}
+
+.btn-white:hover {
+   background-color: #f7f7f7;
+   cursor: pointer;
+}

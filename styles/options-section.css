@@ -1,0 +1,52 @@
+.options-section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0 3.9em 8.8em 3.9em;
+   gap: 2.7em;
+}
+
+.option-container {
+   display: flex;
+   align-items: center;
+   gap: 3.4em;
+   padding: 2.2em 3.4em;
+   background-color: #f1fdff;
+}
+
+.option_title {
+   text-transform: uppercase;
+   font-weight: 400;
+   font-size: 2.5em;
+   line-height: 1.2;
+}
+
+.option_description {
+   margin-top: 0.5em;
+   font-size: 1.1em;
+   line-height: 1.2;
+}
+
+.option_image {
+   flex-shrink: 0;
+   width: 40.625vw;
+   height: auto;
+}
+
+@media (max-width: 1200px) {
+   .option_image {
+      width: 30vw;
+   }
+}
+
+@media (max-width: 1000px) {
+   .option_title {
+      font-size: 1.5em;
+      font-weight: 500;
+      text-align: center;
+   }
+
+   .option_image {
+      display: none;
+   }
+}

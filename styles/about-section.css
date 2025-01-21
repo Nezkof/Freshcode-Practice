@@ -1,0 +1,27 @@
+.about-section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 8.8em 12.1em;
+   gap: 1em;
+}
+
+.about_title {
+   text-transform: uppercase;
+   font-size: 3.33em;
+   line-height: 1.2;
+   font-weight: 400;
+}
+
+.about_description {
+   font-size: 1.5em;
+   line-height: 1.2;
+}
+
+.about_subdescription {
+   color: #73a6b1;
+   font-size: 1.1em;
+   line-height: 1.2;
+}
