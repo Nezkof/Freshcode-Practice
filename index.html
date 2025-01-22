@@ -18,7 +18,9 @@
    </head>
    <body>
       <header class="header">
-         <img src="./assets/logo.svg" alt="logo_img" class="header_logo" />
+         <a href="#main-section"
+            ><img src="./assets/logo.svg" alt="logo_img" class="header_logo"
+         /></a>
 
          <nav class="header_nav">
             <ul class="header_menu">
@@ -32,7 +34,9 @@
                   <a href="#options-section">З чим ми працюємо</a>
                </li>
                <li>
-                  <button class="btn-blue">Підтримати фонд</button>
+                  <button type="button" class="btn-blue">
+                     Підтримати фонд
+                  </button>
                </li>
             </ul>
 
@@ -55,7 +59,9 @@
                   <a href="#options-section">З чим ми працюємо</a>
                </li>
                <li>
-                  <button class="btn-blue">Підтримати фонд</button>
+                  <button type="button" class="btn-blue">
+                     Підтримати фонд
+                  </button>
                </li>
             </ul>
          </nav>
@@ -66,7 +72,7 @@
          <span class="main_description">
             Ми хочемо допомогти кожному, хто постраждав під час війни
          </span>
-         <button class="btn-white">Підтримати фонд</button>
+         <button type="button" class="btn-white">Підтримати фонд</button>
       </section>
 
       <section class="about-section page-section">
@@ -113,7 +119,7 @@
                alt="option-image"
             />
          </div>
-         <button class="btn-blue">Дізнатися більше</button>
+         <button type="button" class="btn-blue">Дізнатися більше</button>
       </section>
 
       <section class="mission-section page-section">
@@ -146,10 +152,10 @@
             </tr>
          </table>
 
-         <button class="btn-blue">Дізнатися більше</button>
+         <button type="button" class="btn-blue">Дізнатися більше</button>
       </section>
 
-      <section id="contacts-section" class="contacts-section page-section">
+      <footer id="contacts-section" class="contacts-section page-section">
          <article class="contacts">
             <h1 class="contacts_title">Контакти</h1>
             <div class="contacts-container">
@@ -160,7 +166,7 @@
                />
                <span class="contact_description"
                   >Якщо у вас виникають питання – телефонуйте за номером
-                  <span> 0-987-654-321 </span>
+                  <a href="tel:+380987654321">0-987-654-321</a>
                </span>
 
                <div class="icons_container">
@@ -179,7 +185,7 @@
             </div>
          </article>
 
-         <arcticle class="contacts_mailing">
+         <article class="contacts_mailing">
             <img
                src="./assets/contacts-section/email_img.webp"
                alt="mailing_image"
@@ -190,12 +196,22 @@
                   Щоб дізнаватися усі новини фестивалю, підпишися на нашу
                   розсилку
                </h2>
-               <input placeholder="Ім'я" type="text" class="mailing_input" />
-               <input placeholder="Емейл" type="text" class="mailing_input" />
-               <button class="btn-blue">Підписатися</button>
+               <input
+                  required
+                  placeholder="Ім'я"
+                  type="text"
+                  class="mailing_input"
+               />
+               <input
+                  required
+                  placeholder="Емейл"
+                  type="email"
+                  class="mailing_input"
+               />
+               <button type="submit" class="btn-blue">Підписатися</button>
             </form>
-         </arcticle>
-      </section>
+         </article>
+      </footer>
       <script src="./header.js"></script>
    </body>
 </html>

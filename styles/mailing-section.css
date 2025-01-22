@@ -40,8 +40,10 @@
 .contact_description {
    font-size: 1.1em;
 
-   span {
+   a {
       font-weight: 700;
+      color: black;
+      text-decoration: none;
    }
 }
 

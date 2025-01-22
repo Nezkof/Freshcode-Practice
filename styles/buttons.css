@@ -9,7 +9,7 @@
    padding: 1.4em 1.95em;
    border-radius: 4.8em;
    background-color: #7ae5fd;
-   line-height: 0.96em;
+   line-height: 1.2;
 }
 
 .btn-blue:hover {
@@ -27,7 +27,7 @@
    padding: 1.4em 1.95em;
    border-radius: 4.8em;
    background-color: white;
-   line-height: 0.96em;
+   line-height: 1.2;
 }
 
 .btn-white:hover {
