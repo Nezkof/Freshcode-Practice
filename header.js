@@ -4,6 +4,7 @@ const header = document.querySelector(".header");
 
 menuBtn.addEventListener("click", function () {
    menu.classList.toggle("active");
+   menuBtn.classList.toggle("active");
 });
 
 document.addEventListener("scroll", () => {

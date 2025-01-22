@@ -70,6 +70,11 @@
    position: relative;
    z-index: 2;
    overflow: hidden;
+   transition: transform 0.25s ease-out;
+}
+
+.burger-menu-btn.active {
+   transform: scaleY(0.6);
 }
 
 .burger-menu-btn:hover {
